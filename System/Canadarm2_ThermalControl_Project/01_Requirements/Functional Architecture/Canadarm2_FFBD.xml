@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2025-06-17T14:39:00.000Z"  type="diagram">
+  <diagram id="diagram_2" name="Canadarm2 Functional Flow Block Diagram">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Time-sequenced Tasks -->
+        <mxCell id="2" value="Start Thermal Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Sense Temperatures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Analyze Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Activate Heaters/MLI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="650" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Adjust Power Allocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Check System Health" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Exchange Data with ISS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Report Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connectors -->
+        <mxCell id="10" style="endArrow=block;html=1;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" style="endArrow=block;html=1;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" style="endArrow=block;html=1;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="endArrow=block;html=1;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="endArrow=block;html=1;" edge="1" parent="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
