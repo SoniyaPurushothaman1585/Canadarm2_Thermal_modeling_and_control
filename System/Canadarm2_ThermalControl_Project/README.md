@@ -111,6 +111,26 @@ Simulation results will appear in the `Outputs/` folder.
 
 ---
 
+## 📅 Requirements Traceability Matrix (RTM)
+
+| Requirement ID | Description | Source | Related Design | Verification Method |
+|----------------|-------------|--------|----------------|---------------------|
+| SYS-001 | Maintain operational component temperatures | System Spec | Thermal Node Model | Simulation/Test |
+| SYS-002 | Provide passive and active thermal strategies | System Spec | MLI, heaters, control logic | Analysis/Test |
+| SYS-003 | Interface with ISS power and telemetry systems | System Spec | Electrical I/F design | Inspection/Demo |
+| SYS-004 | Operate in vacuum/microgravity | System Spec | Environment simulation | Analysis |
+| SYS-005 | Detect and respond to thermal excursions | System Spec | Sensor logic + control | Test |
+| SYS-006 | Conform to NASA/CSA standards | System Spec | Design guidelines | Inspection |
+| THERM-001 | Maintain temp within range | Thermal Req | Node model & layout | Simulation/Test |
+| THERM-002 | Control thermal gradients <20°C | Thermal Req | Component placement | Analysis |
+| THERM-003 | Response time <5 mins | Thermal Req | Heater control logic | Simulation/Test |
+| THERM-004 | Max power <50W | Thermal Req | Power budget | Inspection/Test |
+| THERM-005 | Error < ±5°C | Thermal Req | Validation script | Simulation/Test |
+| IF-MECH-001 | Mounting location compliance | Interface Req | Mechanical CAD | Inspection |
+| IF-ELEC-001 | 28V DC power interface | Interface Req | Wiring harness | Demo/Test |
+| IF-COM-001 | Telemetry compatibility | Interface Req | Telemetry bus | Integration Test |
+
+
 ## 🧠 Author: Soniya Purushothaman
 Email: Soniya.purushothaman2022@gmail.com  
 LinkedIn: www.linkedin.com/in/soniya-purushothaman  
