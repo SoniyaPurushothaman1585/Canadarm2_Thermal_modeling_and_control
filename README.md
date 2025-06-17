@@ -71,5 +71,5 @@ This project simulates a simplified thermal control system for a space robotic a
 Author: Soniya P.  
 Email: Soniya.purushothaman2022@gmail.com  
 LinkedIn: www.linkedin.com/in/soniya-purushothaman
-gitlab:https://gitlab.com/SoniyaLeo
+Gitlab:https://gitlab.com/SoniyaLeo
 
