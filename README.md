@@ -60,7 +60,7 @@ This project simulates a simplified thermal control system for a space robotic a
 
 ## ✨ Future Work
 
-- Integrate with real CAD thermal nodes from NX or Thermal Desktop
+- Integrate with real CAD thermal nodes from  Thermal Desktop
 - Model shadowing and ISS albedo effects
 - Introduce ML-based temperature prediction for heater control
 
@@ -71,5 +71,5 @@ This project simulates a simplified thermal control system for a space robotic a
 Author: Soniya P.  
 Email: Soniya.purushothaman2022@gmail.com  
 LinkedIn: www.linkedin.com/in/soniya-purushothaman
-
+gitlab:https://gitlab.com/SoniyaLeo
 
