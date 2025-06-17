@@ -1,0 +1,1 @@
+This is a description of the diagrams . please insert arm_layout.png and thermal_node_diagram here
